@@ -1,30 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>TITLE</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css" />
-    <!-- Set logo -->
-    <!-- <link rel="icon" href="/assets/images/logo2.png" /> -->
-    <script src="/assets/js/main.js"></script>
-  </head>
-  <body>
-    <!-- To include html -->
-    <!-- {% include filename.html %} -->
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/media.css" />
+</head>
+<body>
 
+  <!-- Header -->
+
+  <header class="header">
+    <div class="container fx fx-between align-center">
+      
+      <!-- Logo -->
+
+      <a href="index.html" class="logo fx align-center"><span></span>wybierz-prezent.pl</a>
+
+      <!-- Navbar-toggle -->
+
+      <button class="navbar-toggle">
+        <span class="icon-bar speed"></span>
+        <span class="icon-bar speed"></span>
+        <span class="icon-bar speed"></span>
+      </button>
+
+      <!-- Nav -->
+
+      <nav class="nav main-nav fx align-center">
+        <ul class="list-nav fx align-center">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Статистика</a></li>
+          <li><a href="#">Подобрать подарок</a></li>
+          <li><a href="#">Вопрос & ответ</a></li>
+        </ul>
+        <a href="#" class="cabinet">Личный кабинет</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Main -->
+
+  <main class="main">
     
-    {{ content }}
+    <!-- Banner -->
 
-    <footer class="container-fluid text-center">
-        <a href="#">Please read our privacy policy</a> <a></a>
-    </footer>
-  </body>
+    <div class="banner">
+      <div class="figure">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container">
+        <h2 class="title-h2 col-white">Мы - знаем, что подарить!</h2>
+        <p>Мы - некоммерческий аналитический портал, который содержит <br />информацию о самых креативных решения в отношений подарков.</p>
+        <a href="#" class="link-more">Подробнее<span></span></a>
+      </div>
+    </div>
+
+    <!-- Nicely -->
+
+    <div class="nicely">
+      <div class="container">
+
+        <!-- Items -->
+        
+        <div class="nicely-item fx align-center">
+          <div class="nicely-txt">
+            <h2 class="title-h2">Приятно дарить подарки!</h2>
+            <p>Пода́рок — вещь, которую даритель по собственному желанию безвозмездно преподносит в полное владение с целью доставить удовольствие, пользу получателю подарка. Подарок имеет сходное значение с даром и пожертвованием. Но как правило, преподнесение подарка связано с каким-то поводом: определённым событием, обычаем или праздником. Поводы к подарку бывают самые разные.</p>
+          </div>
+          <div class="nicely-img"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Give -->
+
+    <div class="give">
+      <div class="container">
+
+        <!-- Title -->
+
+        <h2 class="title-h2 col-white text-center">Что же подарить?</h2>
+
+        <!-- Row -->
+
+        <div class="row fx fx-wrap">
+          
+          <!-- Item 1 -->
+
+          <div class="col-2">
+            <div class="give-item">
+              <h3><span class="i-toy"></span>Игрушки</h3>
+              <p>Воссоздавая реальные и воображаемые предметы, образы, игрушка служит целям умственного, нравственного, эстетического и физического воспитания ребёнка, помогая ему познавать окружающий мир, приучая к целенаправленной, осмысленной деятельности и способствуя развитию мышления, памяти, речи, эмоций.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+
+          <div class="col-2">
+            <div class="give-item">
+              <h3><span class="i-souvenir"></span>Сувениры</h3>
+              <p>Сувениры несут колорит места, в котором они были произведены и приобретены. Это может быть эмблема города, изображение памятного места, объект культуры. Это могут быть предметы, которыми славится местное производство</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+
+          <div class="col-2">
+            <div class="give-item">
+              <h3><span class="i-brilliant"></span>Драгоценности</h3>
+              <p>Драгоценности могут выступать как дорогая вещь, например, ювелирные изделия, предмет важного исторического и общественного значения, то что представляется особенно дорогим и памятным для кого-либо, является талантливым, самобытным, отличается необходимыми для культуры качествами, свойствами.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+
+          <div class="col-2">
+            <div class="give-item">
+              <h3><span class="i-creative"></span>Креатив</h3>
+              <p>В повседневной жизни творческие способности проявляются как смекалка это способность достигать цели, находить выход из кажущейся безвыходной ситуации, используя обстановку, предметы и обстоятельства необычным образом.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Desire -->
+
+    <div class="desire">
+      <div class="container fx fx-wrap">
+        <div class="desire-txt col-2">
+          <h3>Что хотели бы Вы?</h3>
+          <p>Ме́тод опро́са — психологический вербально-коммуникативный метод, заключающийся в осуществлении взаимодействия между интервьюером и респондентами (людьми, участвующими в опросе), посредством получения от субъекта ответов на заранее сформулированные вопросы.</p>
+          <a href="#" class="link-more">К опросам<span></span></a>
+        </div>
+        <div class="desire-group col-2">
+          <span class="line line-max bg-dark-silver"></span>
+          <span class="line line-min bg-dark-silver"></span>
+          <ul class="desire-list">
+            <li>+</li>
+            <li>+</li>
+            <li>+</li>
+            <li>+</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Suggest -->
+
+    <div class="suggest">
+      <div class="container fx fx-wrap">
+        <div class="suggest-txt col-2">
+          <h2 class="title-h2 col-white">Предложите свой подарок!</h2>
+          <p>Форум — мероприятие, проводимое для обозначения или решения каких-либо в достаточной степени глобальных проблем. Это понятие встречается в политических, экономических, социальных, религиозных, экологических и многих других сферах жизнедеятельности современного общества.</p>
+          <a href="#" class="link-more">К обсуждениям</a>
+        </div>
+        <div class="suggest-group col-2">
+          
+          <!-- Item 1 -->
+
+          <div class="suggest-item">
+            <span class="line bg-light-silver"></span>
+            <span class="line bg-light-silver"></span>
+          </div>
+
+          <!-- Item 2 -->
+
+          <div class="suggest-item">
+            <span class="line bg-light-orange"></span>
+            <span class="line bg-light-orange"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  
+  <footer class="footer">
+    <div class="container">
+      
+      <!-- Logo -->
+      
+      <a href="index.html" class="logo"><span></span><br />wybierz-prezent.pl</a>
+
+      <!-- Nav -->
+
+      <nav class="nav">
+        <ul class="list-nav fx fx-center align-center">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Статистика</a></li>
+          <li><a href="#">Подобрать подарок</a></li>
+          <li><a href="#">Вопрос & ответ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Copyright -->
+
+      <p class="copyright"><span>wybierz-prezent.pl</span> © Copyright 2018. All right reserved</p>
+
+    </div>
+  </footer>
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
 </html>
