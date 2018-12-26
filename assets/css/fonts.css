@@ -1,8 +1,10 @@
 @font-face {
+  /* This font is used only bu logo */
   font-family: DidactGothicRegular; /* Имя шрифта */
   src: url(../fonts/DidactGothicRegular.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
   font-family: RobotoLight;
-  src: url(../fonts/RobotoLight.ttf);
+  /* src: url(../fonts/RobotoLight.ttf); */
+  src: url(../fonts/Roboto-Light-v2.ttf);
 }

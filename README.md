@@ -9,7 +9,7 @@
     jekyll serve
 
 ### TODOs
-+ Dodac pliki html/css i obrazki
++ Dodac pliki html/css i obrazki - DONE
 + Napisać js który to wszystko obsłuzy
 + Napisac backend
 + Napisac testy e2e
