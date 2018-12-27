@@ -1,3 +1,7 @@
+import logger from './logger.js';
+import lang from './lang.js';
+import vueBodyApp from './vueBodyApp.js';
+
 $(document).ready(onDocumentLoaded);
 
 function onDocumentLoaded() {
@@ -14,8 +18,22 @@ function onDocumentLoaded() {
     $(this).addClass('current');
   });
 
-  // set default language if it was not set before
-  if (!localStorage.getItem("lang")) {
-    localStorage.setItem("lang", "pl"); 
-  }
+  initLanguageSelection();
+}
+
+function initLanguageSelection() {
+    // set default language if it was not set before
+    if (!lang.getLang()) {
+      lang.setLang(vueBodyApp.lang);
+    }
+  
+    // onchange hook for selector
+    $('#lang-selector').change(function () {
+      const language = $(this).val();
+      logger.debug('Language selected: ' + language);
+      lang.setLang(language);
+
+      // rerender all text translations
+      vueBodyApp.$forceUpdate();
+    });
 }

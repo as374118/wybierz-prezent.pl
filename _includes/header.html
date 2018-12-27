@@ -24,6 +24,12 @@
           <li><a href="#">{{ "FAQ" | translate }}</a></li>
         </ul>
         <a href="#" class="cabinet">{{ "LogIn" | translate }}</a>
+        
+        <select v-model="lang" id="lang-selector" >
+          <option value="pl">pl</option>
+          <option value="en">en</option>
+          <option value="ru">ru</option>
+        </select>
       </nav>
       {% endraw %}
   

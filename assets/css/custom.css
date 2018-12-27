@@ -1,3 +1,8 @@
 #portalDescription {
     width: 50vw;
 }
+
+#lang-selector {
+    margin-left: 5vw;
+    height: 35px;
+}
