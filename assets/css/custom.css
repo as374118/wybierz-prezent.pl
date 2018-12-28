@@ -30,3 +30,7 @@
 .privacy-policy li {
     list-style-type: decimal;
 }
+
+.copyright {
+    font-size: 70%;
+}
