@@ -1,4 +1,5 @@
   <!-- Footer -->
+{% raw %}
 <footer class="footer">
     <div class="container">
 
@@ -10,17 +11,19 @@
 
         <nav class="nav">
             <ul class="list-nav fx fx-center align-center">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Статистика</a></li>
-                <li><a href="#">Подобрать подарок</a></li>
-                <li><a href="#">Вопрос & ответ</a></li>
+                <li><a href="#">{{ "Home" | translate }}</a></li>
+                <li><a href="#">{{ "Statistics" | translate }}</a></li>
+                <li><a href="#">{{ "Find" | translate }}</a></li>
+                <li><a href="#">{{ "FAQ" | translate }}</a></li>
+                <li><a href="privacy.html" target="_blanc">{{ "PrivacyPolicy" | translate }}</a></li>
             </ul>
         </nav>
 
         <!-- Copyright -->
 
         <p class="copyright"><span>wybierz-prezent.pl</span> © Copyright 2018.
-            All right reserved</p>
+            {{ "ReservedRights" | translate }}</p>
 
     </div>
 </footer>
+{% endraw %}
