@@ -3,6 +3,7 @@ import lang from './lang.js';
 let app = new Vue({
     el: '#main-container',
     data: {
+        showDetailPortalDescription: false,
         lang: lang.getLang() || lang.defaultLang,
     },
     methods: {

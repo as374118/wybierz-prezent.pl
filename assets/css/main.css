@@ -130,7 +130,7 @@ a.cabinet:before {
   padding: 175px 0;
   position: relative;
   background: url(../img/bg/banner.jpg) no-repeat 0 0;
-  background-size: cover;
+  background-size: cover cover;
 }
 
 .banner .container {

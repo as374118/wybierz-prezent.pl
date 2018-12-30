@@ -17,7 +17,34 @@ layout: default
             <p id="portalDescription">
                 {{ "PortalDescription" | translate }}
             </p>
-            <a href="#" class="link-more">{{ "MoreDetails" | translate }}<span></span></a>
+            <div v-if="showDetailPortalDescription" id="portalDescriptionMore">
+                <!-- TODO add translations -->
+                Tutaj mozesz:
+                <ul>
+                    <li>
+                        Sprawdzić statystykę popularności róznych prezentów
+                    </li>
+                    <li>
+                        Wypełnic ankietę i wpłynąć na statystykę
+                    </li>
+                    <li>
+                        Poczytać artykuły dotyczące wyboru różnego rodzaju prezentów
+                    </li>
+                    <li>
+                        Znaleźć pomysł na nietypowy ale dobry prezent
+                    </li>
+                    <li>
+                        Wiele innych rzeczy
+                    </li>
+                </ul>
+
+                Podsumowując, jest to idealne narzędzie wspomagające w wyborze najlepszego prezentu!
+                <!-- TODO add translations -->
+            </div>
+            <a href="#" v-if="!showDetailPortalDescription" v-on:click="showDetailPortalDescription = !showDetailPortalDescription" class="link-more">
+                {{ "MoreDetails" | translate }}
+            <span></span>
+            </a>
         </div>
     </div>
 
@@ -29,20 +56,12 @@ layout: default
 
             <div class="nicely-item fx align-center">
                 <div class="nicely-txt">
-                    <h2 class="title-h2">Приятно дарить подарки!</h2>
+                    <!-- TODO translate -->
+                    <h2 class="title-h2">Miło dawać prezenty!</h2>
                     <p>
-                        Пода́рок — вещь, которую даритель по собственному
-                        желанию
-                        безвозмездно преподносит в полное владение с целью
-                        доставить
-                        удовольствие, пользу получателю подарка. Подарок имеет
-                        сходное
-                        значение с даром и пожертвованием. Но как правило,
-                        преподнесение
-                        подарка связано с каким-то поводом: определённым
-                        событием, обычаем
-                        или праздником. Поводы к подарку бывают самые разные.
+                        Prezent jest jednym z najlepszych sposobów wykazania troski w stosunku do bliskich osób. Niestety najcześciej zamało czasu poświęcamy na wybór prezenta, co skutkuje marnowaniem pieniędzy i wyborem prezentu tylko jako fakt... Zawsze lepiej poświęcić trochę czasu i wybrać najlepiej pasujący do danej sytuacji prezent. Nasz portal natomiast postara się w tym maksymalnie wspomóc. 
                     </p>
+                    <!-- TODO translate -->
                 </div>
                 <div class="nicely-img"></div>
             </div>

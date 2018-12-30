@@ -34,3 +34,20 @@
 .copyright {
     font-size: 70%;
 }
+
+#portalDescriptionMore {
+    color: white;
+}
+
+#portalDescriptionMore ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#portalDescriptionMore li {
+    list-style-type: disc;
+}
