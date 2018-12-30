@@ -1,0 +1,43 @@
+{% raw %}
+<div class="banner">
+    <div class="figure"><span></span> <span></span> <span></span></div>
+    <div class="container">
+        <h2 class="title-h2 col-white">{{ "WeKnowWhatIsTheBestGift" | translate
+            }}</h2>
+        <p id="portalDescription">
+            {{ "PortalDescription" | translate }}
+        </p>
+        <div v-if="showDetailPortalDescription" id="portalDescriptionMore">
+            <!-- TODO add translations -->
+            Tutaj mozesz:
+            <ul>
+                <li>
+                    Sprawdzić statystykę popularności róznych prezentów
+                </li>
+                <li>
+                    Wypełnic ankietę i wpłynąć na statystykę
+                </li>
+                <li>
+                    Poczytać artykuły dotyczące wyboru różnego rodzaju
+                    prezentów
+                </li>
+                <li>
+                    Znaleźć pomysł na nietypowy ale dobry prezent
+                </li>
+                <li>
+                    Wiele innych rzeczy
+                </li>
+            </ul>
+
+            Podsumowując, jest to idealne narzędzie wspomagające w wyborze
+            najlepszego prezentu!
+            <!-- TODO add translations -->
+        </div>
+        <a href="#" v-if="!showDetailPortalDescription" v-on:click="showDetailPortalDescription = !showDetailPortalDescription"
+            class="link-more">
+            {{ "MoreDetails" | translate }}
+            <span></span>
+        </a>
+    </div>
+</div>
+{% endraw %}
