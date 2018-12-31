@@ -51,3 +51,61 @@
 #portalDescriptionMore li {
     list-style-type: disc;
 }
+
+.articles-title {
+    margin-bottom: 50px;
+}
+
+.give-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+}
+
+.articles .row .col-2 {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.statistics-link {
+    height: 130px;
+    background: #fff;
+    padding: 40px 48px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.green-arrow {
+    /* margin-left: 25px; */
+    display: inline-block;
+    /* vertical-align: middle; */
+    /* width: 10px;height: 18px; */
+    background: url(../img/icons/more-green.png) no-repeat;
+}
+
+.statistics-link a {
+    cursor: pointer;
+    color: black;
+}
+
+.statistics-link img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.statistics-link td {
+    vertical-align: middle;
+}
+
+.statistics-link-text {
+    padding-left: 10px;
+    /* font-size: 90%; */
+    /* padding-left: 10px; */
+    /* text-indent: 30px; */
+}
+
+.statistics-link:hover {
+    background: orange;
+    cursor: pointer;
+}
