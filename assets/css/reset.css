@@ -64,7 +64,7 @@ body {
   text-align: left;
 }
 a, a:visited {
-  color: #e6618c;
+  /* color: #e6618c; */
   text-decoration: none;
 }
 a:hover {

@@ -165,3 +165,26 @@ a.link-less {
   width: 89vw;
   margin-bottom: 10px;
 }
+
+.add-gift-form {
+  width: 50vw;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 70vh; 
+  color: #337ab7;
+}
+
+.small-margins {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.medium-margins {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

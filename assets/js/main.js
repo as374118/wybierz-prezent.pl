@@ -19,6 +19,7 @@ function onDocumentLoaded() {
   });
 
   initLanguageSelection();
+  initFileUploadWithPreview();
 }
 
 function initLanguageSelection() {
@@ -37,3 +38,11 @@ function initLanguageSelection() {
       vueBodyApp.$forceUpdate();
     });
 }
+
+function initFileUploadWithPreview() {
+  if ($('[data-upload-id="image-upload-with-preview"]').length > 0) {
+    const upload = new FileUploadWithPreview('image-upload-with-preview');
+    logger.debug('Initialising FileUploadWithPreview');
+  }
+}
+
