@@ -12,4 +12,5 @@ export default
     "WeKnowWhatIsTheBestGift": "Wiemy jaki prezent jest najlepszy!",
     "PortalDescription": "Jesteśmy niekomercyjnym portalem zawierającym statystki najpopularniejszych oraz najbardziej poządanych prezentów.",
     "MoreDetails": "Więcej",
+    "LessDetails": "Mniej",
 }

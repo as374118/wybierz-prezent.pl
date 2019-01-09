@@ -1,30 +1,30 @@
 {% raw %}
 <div class="banner">
     <div class="figure"><span></span> <span></span> <span></span></div>
-    <div class="container">
+    <div class="container animate">
         <h2 class="title-h2 col-white">{{ "WeKnowWhatIsTheBestGift" | translate
             }}</h2>
         <p id="portalDescription">
             {{ "PortalDescription" | translate }}
         </p>
-        <div v-if="showDetailPortalDescription" id="portalDescriptionMore">
+        <div v-show="showDetailPortalDescription" id="portalDescriptionMore">
             <!-- TODO add translations -->
             Tutaj mozesz:
-            <ul>
-                <li>
+            <ul class="list-group">
+                <li class="list-group-item">
                     Sprawdzić statystykę popularności róznych prezentów
                 </li>
-                <li>
+                <li class="list-group-item">
                     Wypełnic ankietę i wpłynąć na statystykę
                 </li>
-                <li>
+                <li class="list-group-item">
                     Poczytać artykuły dotyczące wyboru różnego rodzaju
                     prezentów
                 </li>
-                <li>
+                <li class="list-group-item">
                     Znaleźć pomysł na nietypowy ale dobry prezent
                 </li>
-                <li>
+                <li class="list-group-item">
                     Wiele innych rzeczy
                 </li>
             </ul>
@@ -33,9 +33,14 @@
             najlepszego prezentu!
             <!-- TODO add translations -->
         </div>
-        <a href="#" v-if="!showDetailPortalDescription" v-on:click="showDetailPortalDescription = !showDetailPortalDescription"
+        <a href="#" v-show="!showDetailPortalDescription" v-on:click="showDetailPortalDescription = !showDetailPortalDescription"
             class="link-more">
             {{ "MoreDetails" | translate }}
+            <span></span>
+        </a>
+        <a href="#" v-show="showDetailPortalDescription" v-on:click="showDetailPortalDescription = !showDetailPortalDescription"
+            class="link-less">
+            {{ "LessDetails" | translate }}
             <span></span>
         </a>
     </div>

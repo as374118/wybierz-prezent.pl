@@ -1,111 +1,167 @@
 #portalDescription {
-    width: 50vw;
+  width: 50vw;
 }
 
 #lang-selector {
-    margin-left: 5vw;
-    height: 35px;
+  margin-left: 5vw;
+  height: 35px;
 }
 
 .privacy-policy {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 
-    padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .privacy-policy ol {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .privacy-policy li {
-    list-style-type: decimal;
+  list-style-type: decimal;
 }
 
 .copyright {
-    font-size: 70%;
+  font-size: 70%;
 }
 
 #portalDescriptionMore {
-    color: white;
+  color: white;
 }
 
 #portalDescriptionMore ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 #portalDescriptionMore li {
-    list-style-type: disc;
+  list-style-type: disc;
 }
 
 .articles-title {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .give-item {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .articles .row .col-2 {
-    padding: 0 10px;
-    margin-bottom: 20px;
+  padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .statistics-link {
-    height: 130px;
-    background: #fff;
-    padding: 40px 48px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+  height: 130px;
+  background: #fff;
+  padding: 40px 48px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .green-arrow {
-    /* margin-left: 25px; */
-    display: inline-block;
-    /* vertical-align: middle; */
-    /* width: 10px;height: 18px; */
-    background: url(../img/icons/more-green.png) no-repeat;
+  /* margin-left: 25px; */
+  display: inline-block;
+  /* vertical-align: middle; */
+  /* width: 10px;height: 18px; */
+  background: url(../img/icons/more-green.png) no-repeat;
 }
 
 .statistics-link a {
-    cursor: pointer;
-    color: black;
+  cursor: pointer;
+  color: black;
 }
 
 .statistics-link img {
-    vertical-align: middle;
-    margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .statistics-link td {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .statistics-link-text {
-    padding-left: 10px;
-    /* font-size: 90%; */
-    /* padding-left: 10px; */
-    /* text-indent: 30px; */
+  padding-left: 10px;
+  /* font-size: 90%; */
+  /* padding-left: 10px; */
+  /* text-indent: 30px; */
+}
+
+.statistics-link:hover .statistics-link-text {
+  color: white;
 }
 
 .statistics-link:hover {
-    background: orange;
-    cursor: pointer;
+  background: orange;
+  cursor: pointer;
+}
+
+.animate {
+  transition: all 0.5s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.link-less span {
+  margin-left: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 18px;
+  background: url(../img/icons/less.png) no-repeat;
+}
+
+.link-less:hover {
+  background: #134a75;
+}
+
+a.link-less {
+  color: #fafafa;
+  font-size: 20px;
+  padding: 22px 40px;
+  background: #ec9229;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.link-less {
+    margin-top: 3vw;
+}
+
+.gift-filters {
+  width: 89vw;
+  height: 200px;
+  background-color: lightblue;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 300%;
+  text-align: center;
+}
+
+.gift-list {
+  /* text-align: center; */
+  margin: auto;
+  width: 89vw;
+  margin-bottom: 10px;
 }

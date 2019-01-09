@@ -130,7 +130,7 @@ a.cabinet:before {
   padding: 175px 0;
   position: relative;
   background: url(../img/bg/banner.jpg) no-repeat 0 0;
-  background-size: cover cover;
+  background-size: cover ;
 }
 
 .banner .container {
@@ -408,6 +408,7 @@ a.link-more {
 /* ------------ *Footer ------------- */
 
 .footer {
+  position: relative;
   padding: 35px 0;
   text-align: center;
   background: #2f2fb4;
