@@ -188,3 +188,9 @@ a.link-less {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+#add-gift-header {
+  padding: 15px 0;
+  background: lightseagreen;
+  color: white;
+}
